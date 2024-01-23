@@ -39,7 +39,7 @@
 <body>
   <header>
     <!-- --------------------------------navigation bar--------- -->
-    <nav class="container mx-auto">
+    <nav class="container mx-auto my-10">
 
       <div class="navbar bg-base-100">
         <div class="navbar-start">
@@ -56,7 +56,7 @@
              
             </ul>
           </div>
-          <a class="btn btn-ghost text-xl">daisyUI</a>
+          <h1 class="text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">’</span>s</h1>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
@@ -68,13 +68,14 @@
             
           </ul>
         </div>
-        <div class="navbar-end">
-          <a class="btn">Button</a>
+        <div class="navbar-end space-x-5">
+          <button class=" btn bg-white border-none shadow-none hidden sm:block"><i class="fa-solid fa-magnifying-glass"></i></button>
+          <a class="btn btn-secondary text-[16px] bg-[#FF4240] hover:bg-[#FF4240] border-none ">Get Ticket</a>
         </div>
       </div>
     </nav>
     <!-- --------------------------------banner section------------- -->
-    <section class="container mx-auto">
+    <section class="container mx-auto relative">
       <div class="carousel w-full">
         <div id="slide1" class="carousel-item relative w-full">
           <img src="./Images/1.png" class="w-full" />
@@ -92,6 +93,14 @@
         </div> 
        
       
+      </div>
+      <div class=" bg-black mx-auto lg:mx-0 lg:absolute bottom-14 right-8 w-[420px]  lg:w-[600px] h-36 rounded-xl p-5 space-y-3 ">
+       <h1 class=" text-white text-lg lg:text-2xl font-extrabold">
+        Meet all the heroes from the field
+       </h1>
+       <p class="text-[#ffffff99] w-">
+        Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. 
+       </p>
       </div>
     </section>
   </header>
@@ -152,7 +161,7 @@
           <h1 class="text-white text-3xl font-extrabold">Junior Program</h1>
           <p class="text-white font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
             enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-            <button class=" btn btn-secondary">Register Now!</button>
+            <button class=" btn btn-secondary text-[16px] bg-[#FF4240] hover:bg-[#FF4240] border-none">Register Now!</button>
          </div>
         </div>
         <div class=" bg-[url('/images/3.png')]  bg-cover bg-no-repeat rounded-2xl">
@@ -161,7 +170,7 @@
            <h1 class="text-white text-3xl font-extrabold">Teenager Program</h1>
            <p class="text-white font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-             <button class=" btn btn-secondary">Register Now!</button>
+             <button class=" btn btn-secondary text-[16px] bg-[#FF4240] hover:bg-[#FF4240] border-none">Register Now!</button>
           </div>
          </div>
          <div class="  lg:col-span-2  bg-[url('/images/4.png')]  bg-cover bg-no-repeat rounded-2xl ">
@@ -170,9 +179,12 @@
            <h1 class="text-white text-3xl font-extrabold">Professional Program</h1>
            <p class="text-white font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit <br>elit 
              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc <br> morbi nulla. Tortor congue sed et in.</p>
-             <button class="btn btn-secondary ">Register Now!</button>
+             <button class="btn btn-secondary text-[16px] bg-[#FF4240] hover:bg-[#FF4240] border-none">Register Now!</button>
           </div>
          </div>
+    </div>
+    <div>
+
     </div>
 </section>
 <!-- --------------------------------------product-section----------------- -->
@@ -464,9 +476,94 @@
           Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. 
         </p>
         </div>
+        <!-- ---------complex section-------- -->
+        <div class=" flex flex-col lg:flex-row my-12 gap-10">
+          <!-- left side -->
+          <div class=" space-y-6 border-solid border-2 p-4 lg:p-14 rounded-2xl">
+            <div class=" p-10 pb-14 space-y-10 w-96 bg-[#bced6d1a] rounded-2xl">
+              <figure><img src="./Images/call.png" alt="Shoes" /></figure>
+              <div class="">
+                
+                <p>Phone Number :</p>
+                <h2 class="card-title">(+62) 123-321-543</h2>
+              </div>
+            </div>
+            <div class=" p-10 pb-14 space-y-10 w-96 bg-[#fddd5f1a] rounded-2xl">
+              <figure><img src="./Images/mail.png" alt="Shoes" /></figure>
+              <div class="">
+                
+                <p>Email :</p>
+                <h2 class="card-title">hockeys@support.com</h2>
+              </div>
+            </div>
+            <div class=" p-10 pb-14 space-y-10 w-96 bg-[#629cf31a] rounded-2xl">
+              <figure><img src="./Images/location.png" alt="Shoes" /></figure>
+              <div class="">
+                
+                <p>Location :</p>
+                <h2 class="card-title">152/1 Mohakhali Wireless Gate
+
+                </h2>
+              </div>
+            </div>
+          </div>
+          <!-- right side -->
+          <div>
+            <div class="flex flex-col lg:flex-row gap-10  ">
+              <div class="w-[350px] space-y-10 mx-auto lg:mx-0 ">
+               <div class="space-y-5">
+                <h3 class="text-xl font-bold">Your Name</h3>
+                <input type="text" placeholder="Enter your full name" class="input input-bordered w-full bg-[#13131808] border-none hover:border-none" />
+               </div>
+               <div class="space-y-5">
+                <h3 class="text-xl font-bold">Your Email</h3>
+                <input type="text" placeholder="Enter your email" class="input input-bordered w-full bg-[#13131808] border-none hover:border-none" />
+               </div>
+              </div>
+              <div class="w-[350px] space-y-10 mx-auto lg:mx-0 ">
+               <div class="space-y-5">
+                <h3 class="text-xl font-bold">Subject</h3>
+                <input type="text" placeholder="Enter your full subject" class="input input-bordered w-full bg-[#13131808] border-none hover:border-none" />
+               </div>
+               <div class="space-y-5">
+                <h3 class="text-xl font-bold">Phone Number</h3>
+                <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full bg-[#13131808] border-none hover:border-none" />
+               </div>
+            </div>
+          </div>
+          <div class="mt-10 mx-10 lg:mx-0   ">
+          
+              <h3 class="text-xl font-bold">Message</h3>
+            
+                 <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
+                  <textarea id="message" class=" w-full lg:w-[740px] h-[250px] lg:h-[450px] bg-[#13131808] rounded-xl p-5 mx-auto lg:mx-0" placeholder="Write your thoughts here..."></textarea>
+            
+
+          </div>
+          <div class="mt-5">
+            <button class="btn btn-primary text-white text-[16px] bg-[#FF4240] hover:bg-[#FF4240] border-none w-[340px] lg:w-[740px] mx-10 lg:mx-0">
+              Send Message
+            </button>
+          </div>
+          
+        </div>   
+    </section>
+    <!--------------------------------------- socaial media------------------------ -->
+    <section class="container  mx-auto mb-24 ">
+      <div class=" justify-center items-center text-center py-4 lg:py-10 px-0 lg:px-[40%] bg-[#13131808] rounded-xl space-y-4">
+        <h3 class="text-2xl font-extrabold">Social Media</h3>
+        <div class="space-x-10">
+          <i class="fa-brands text-3xl fa-twitter"></i>
+          <i class="fa-brands text-3xl fa-facebook-f"></i>
+          <i class="fa-brands text-3xl fa-instagram"></i>
+          <i class="fa-brands text-3xl fa-github"></i>
+
+        </div>
+      </div>
     </section>
   </main>
   <!-- --------------------------------------footer section------------------------ -->
+
   <footer class="footer p-24 bg-black text-base-content">
    <div >
     <nav class=" flex flex-col gap-3 text-center lg:text-start">
